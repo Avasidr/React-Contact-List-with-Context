@@ -1,0 +1,54 @@
+.create-btn {
+    margin-right: 100px;
+}
+
+.homeLink {
+    margin-left: 100px;
+}
+
+.body {
+    background-image: url('https://thumbs.dreamstime.com/b/patr%C3%B3n-sin-problemas-con-corazones-negros-peque%C3%B1os-sobre-fondo-blanco-sencillo-rom%C3%A1ntico-ilustraci%C3%B3n-del-vector-165026983.jpg');
+    background-size: contain;
+    margin-left: 0;
+    height: 848px;
+}
+
+.title-body {
+    margin: 20px;
+}
+
+.contact-card {
+    margin: 20px;
+    max-width: 700px;
+    max-height: 200px;
+}
+
+.card-list {
+    height: 638px;
+    overflow-y: scroll;
+    padding-left: 0;
+    scroll-snap-type: both mandatory;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-card {
+        max-width: 400px;
+        max-height: 600px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .homeLink {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .create-btn {
+        margin-right: 0;
+        margin-top: 8px;
+    }
+
+    .card-list {
+        height: 618px;
+    }
+}
+
